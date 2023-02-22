@@ -2,8 +2,8 @@ ETUDE_IMPORTANT:
    SCENARIO : Uma
    ANT_COORD_GEN : g
    UE_COORD_GEN: a
-   #COORD_FILES:  # Utilisé quand les coordonées sont lues à partir d'un fichier.
-      #read: data/coordonnees_case9.txt # actif quand on lis le fichier de coordonnées 
+   COORD_FILES:  # Utilisé quand les coordonées sont lues à partir d'un fichier.
+      read: data/coordonnees_case9.txt # actif quand on lis le fichier de coordonnées 
       #Ajout de commentaire à la ligne précédante
       #write: data/sortie_case9.txt   # actif quand on veut écrire les résultats dans un fichier
    DEVICES:
