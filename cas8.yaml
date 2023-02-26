@@ -3,18 +3,18 @@ ETUDE_IMPORTANT:
    ANT_COORD_GEN : g
    UE_COORD_GEN: a
    COORD_FILES:  # Utilisé quand les coordonées sont lues à partir d'un fichier.
-      read: data/coordonnees_case9.txt # actif quand on lis le fichier de coordonnées 
+      read: data/coordonnees_case8.txt # actif quand on lis le fichier de coordonnées 
       #Ajout de commentaire à la ligne précédante
       #write: data/sortie_case9.txt   # actif quand on veut écrire les résultats dans un fichier
    DEVICES:
       Antenna1 : # Group Antenna1 (comme défini dans la base de données)
          number : 25
       UE1-App1 : # Group UE1-App1 (comme défini dans la base de données)
-         number : 30
+         number : 100
       UE2-App2 : # Group UE2-App2 (comme défini dans la base de données)
-         number: 20
+         number: 200
    GEOMETRY:
       Surface:
          rectangle:
-           length : 5000 # en mètres
-           height : 4000
+           length : 1000 # en mètres
+           height : 500
