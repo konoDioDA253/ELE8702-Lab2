@@ -10,9 +10,9 @@ ETUDE_IMPORTANT:
       Antenna1 : # Group Antenna1 (comme défini dans la base de données)
          number : 25
       UE1-App1 : # Group UE1-App1 (comme défini dans la base de données)
-         number : 100
+         number : 20
       UE2-App2 : # Group UE2-App2 (comme défini dans la base de données)
-         number: 200
+         number: 30
    VISIBILITY : # read nlos information
       read: visibility1.txt 
    GEOMETRY:

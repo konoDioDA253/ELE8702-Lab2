@@ -18,17 +18,21 @@ import pyautogui
 # Using replace()
  
 # initializing string
-test_str = "GeeksforGeeks"
- 
-# initializing removal character
-rem_char = "e"
+test_str = "[1, 1, 0, 5, 521]"
  
 # printing original string
 print("The original string is :" + str(test_str))
  
 # Using replace()
 # Deleting all occurrences of character
+ 
+# initializing removal character
+rem_char = "["
+rem_char2 = "]"
+rem_char3 = ","
 res = test_str.replace(rem_char, "")
+res2 = str(res.replace(rem_char2, ""))
+list_treated = str(res2.replace(rem_char3, ""))
  
 # printing result
-print("The string after character deletion : " + str(res))
+print("The string after character deletion: " + list_treated )
