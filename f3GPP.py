@@ -5,7 +5,11 @@
 import math
 
 def formula_3GPP(d, d_2D, d_3d, d_BP, d_3D, dPrime_BP, h, h_BS, h_UT, f_c) :
-    
+    h = 5
+    h_UT = 1.5
+    W = 20
+
+
     PL_RMaLOS, PL_RMaNLOS, PL_UMaLOS, PL_UMaNLOS, OptionalPL_UMaNLOS, PL_UMiLOS, PL_UMiNLOS = 0
 
     # LOS
