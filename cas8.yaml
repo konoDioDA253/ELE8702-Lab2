@@ -2,7 +2,7 @@ ETUDE_IMPORTANT:
   SCENARIO: Uma
   ANT_COORD_GEN: g
   UE_COORD_GEN: a
-  COORD_FILES: 'read: data/sortie_case8.txt'
+  COORD_FILES: 'write: data/sortie_case8.txt'
   DEVICES:
     Antenna1:
       number: 25
